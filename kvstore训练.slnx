@@ -1,0 +1,7 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="kvstore训练/kvstore训练.vcxproj" Id="0682df4f-a641-4b31-8f9a-02fc58cf1c4e" />
+</Solution>
