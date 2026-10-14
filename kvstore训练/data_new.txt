@@ -1,3 +1,0 @@
-age 18
-height 1.8m
-weight 80kg
