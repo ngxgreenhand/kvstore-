@@ -82,8 +82,7 @@ public:
 		if (!out.is_open()) return;
 		int klen = key.size();
 		int vlen = value.size();
-		long pos = out.tellp(); // 记录当前指针位置（这就是 value 在文件里的偏移量）
-		index[key] = pos; // 把偏移量记在内存里
+		long pos = out.tellp(); // 记录当前指针位置（这就是 value 在文件里的偏移量）、
         out.write((char*)&klen, sizeof(int)); // 写入 key 的长度
         out.write(key.c_str(), klen);
         out.write((char*)&vlen, sizeof(int));
